@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="failureView">
+        <attr name="failureContent" format="string"></attr>
+        <attr name="failureBtn" format="string"></attr>
+        <attr name="failureSrc" format="reference"></attr>
+        <attr name="loadingVisible" format="boolean"></attr>
+    </declare-styleable>
+</resources>
