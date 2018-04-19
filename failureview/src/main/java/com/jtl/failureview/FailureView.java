@@ -116,4 +116,16 @@ public class FailureView extends FrameLayout {
             containerLayout.setVisibility(VISIBLE);
         }
     }
+
+    public Button getBtnFailure() {
+        return btnFailure;
+    }
+
+    public TextView getTvFailure() {
+        return tvFailure;
+    }
+
+    public ImageView getIvFailure() {
+        return ivFailure;
+    }
 }
