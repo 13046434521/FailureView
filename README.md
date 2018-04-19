@@ -11,7 +11,7 @@
 ```
 * App Gradle：
   ```java
-	dependencies {
-	        compile 'com.github.13046434521:FailureDemo:1.0'
-	}
+    implementation('com.github.13046434521:FailureView:1.0') {
+        exclude group: 'com.android.support'
+    }
 ```
