@@ -1,8 +1,7 @@
 # FailureDemo
 ## FailureView
 * 使用方法：项目Gradle：
-
-	  ```java
+```java
 	allprojects {
 		repositories {
 			...
@@ -10,7 +9,7 @@
 		}
 	}
 ```
- *  App Gradle：
+* App Gradle：
   ```java
 	dependencies {
 	        compile 'com.github.13046434521:FailureDemo:1.0'
